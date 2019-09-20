@@ -5,6 +5,8 @@ const http = require('http');
 // Setup server
 var app = express();
 var server = http.createServer(app);
+//get .env file
+require('dotenv').config();
 
 //  Install our routes
 require('./config/express')(app);
