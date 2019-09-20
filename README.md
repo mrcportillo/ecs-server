@@ -2,8 +2,6 @@
 
 ## Configuracion local.
 
-The project requires a `DB_URL` variable to connecto to the DB Instance. On local environments the `DB_URL` var will be provided by docker-compose.
-Using the `AUTHOR` we'll store metadata each time the service starts.
 El proyecto requiere un archivo `.env` ubicado en la raiz con las siguientes variables de entorno:
 
 ```
