@@ -36,4 +36,5 @@ ADD . /var/www/$SERVICE_NAME
 
 EXPOSE 80
 
-CMD node src/index.js --use-strict --name=$SERVICE_NAME
+#CMD node src/index.js --use-strict --name=$SERVICE_NAME
+ENTRYPOINT ["sh", "./start.sh"]
