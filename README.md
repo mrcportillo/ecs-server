@@ -18,6 +18,7 @@ DYNAMO_DB_TABLE=
 Para correr el servidor en un entorno local (sin docker):
 
 `npm install`
+
 `npm start`
 
 Para correr el servidor en un entorno local (con docker):
