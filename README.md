@@ -65,3 +65,8 @@ Nota: Si recibis "Unknown options: --no-include-email" usando AWS CLI, asegurate
 5) Subi la imagen al repositorio:
 
     `docker push 398398166530.dkr.ecr.us-east-2.amazonaws.com/ecs-server-juti2019:1.0.0`
+
+## Diagramas
+- [ECS](./docs/images/ecs.png)
+
+- [ALB](./docs/images/alb.png)
