@@ -18,7 +18,7 @@
     "nodemon": "^1.19.2"
   },
   "dependencies": {
-    "aws-sdk": "^2.529.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.2",
     "dotenv": "^8.1.0",
